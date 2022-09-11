@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Brodys School Hub</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <style>
+
+
+        body {
+            background-color: rgb(66, 66, 66); 
+            text-align: center;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   }
+   * {
+      box-sizing: border-box;
+        }
+
+        .box {
+        width: 100%;
+        height: 100%;
+
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: fit;
+      }
+      
+      .fadeImage {
+        -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+      }
+
+      .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+      }
+
+      .card {
+      color: white;
+      float: left;
+      width: calc(25% - 20px);
+      padding: 10px;
+      border-radius: 10px;
+      margin: 10px;
+      height: 200px;
+   }
+   .card p {
+      font-size: 18px;
+   }
+   .cardContainer:after {
+      content: "";
+      display: table;
+      clear: both;
+   }
+   @media screen and (max-width: 600px) {
+      .card {
+         width: 100%;
+      }
+   }
+    </style>
+
+    <body>
+        <div>
+
+            <img class="box fadeImage" src="Assets/MainImg.png">
+            
+            <h1 class="centered">Welcome, Brody</h1>
+        
+        </div>
+
+        <br><br><br><br>
+
+        <div class="cardContainer">
+
+                <!-- CARDS HERE! -->
+
+                
+                <div class="card" style="background-color:rgb(153, 29, 224);">
+                    <h2>Canvas</h2>
+                    <p><a href="Student://" target="_blank" rel="noreferrer noopener">Test</a></p>
+                    </div>
+                    <div class="card" style="background-color:rgb(12, 126, 120);">
+                    <h2>Powerschool</h2>
+                    <p><a href="https://my.ncedcloud.org/portal/applications/access?id=152ed090-363e-11e5-afe9-123ff21da58d" target="_blank" rel="noreferrer noopener">Test</a></p>
+                    </div>
+                    <div class="card" style="background-color:rgb(207, 41, 91);">
+                    <h2>School Gmail</h2>
+                    <p><a href="https://my.ncedcloud.org/portal/applications/access?id=a75d1f10-3799-11e5-a7d0-125755ca07bd" target="_blank" rel="noreferrer noopener">Test</a></p>
+                    </div>
+                    <div class="card" style="background-color:rgb(204, 91, 39);">
+                    <h2>Fourth card</h2>
+                    <p>Some text</p>
+                    </div>
+
+        </div>
+        
+        
+       
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>
